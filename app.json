@@ -1,0 +1,68 @@
+{
+  "pages":[
+    "example/index",
+
+    "example/button/button",
+    "example/list/list",
+    "example/input/input",
+    "example/slider/slider",
+    "example/uploader/uploader",
+
+    "example/article/article",
+    "example/badge/badge",
+    "example/flex/flex",
+    "example/footer/footer",
+    "example/gallery/gallery",
+    "example/grid/grid",
+    "example/icons/icons",
+    "example/loadmore/loadmore",
+    "example/panel/panel",
+    "example/preview/preview",
+    "example/progress/progress",
+
+    "example/actionsheet/actionsheet",
+    "example/dialog/dialog",
+    "example/msg/msg",
+    "example/msg/msg_success",
+    "example/msg/msg_fail",
+    "example/picker/picker",
+    "example/toast/toast",
+
+    "example/navbar/navbar",
+    "example/tabbar/tabbar",
+
+    "example/searchbar/searchbar"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Steam史低查询",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle":"white",
+    "list": [{
+      "selectedIconPath": "res/images/home.png",
+      "iconPath": "res/images/home.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+      }, {
+        "selectedIconPath": "res/images/discount.png",
+        "iconPath": "res/images/discount.png",
+         "pagePath": "pages/index/index",
+         "text": "折扣"
+     }, {
+       "selectedIconPath": "res/images/trend.png",
+       "iconPath": "res/images/trend.png",
+       "pagePath": "pages/index/index",
+       "text": "走势"
+     }, {
+       "selectedIconPath": "res/images/about.png",
+       "iconPath": "res/images/about.png",
+       "pagePath": "pages/index/index",
+       "text": "关于"
+       }]
+   }
+}
